@@ -8,4 +8,13 @@ public class Plant {
     private LocalDateTime planted;
     private LocalDateTime watering;
     private Duration frequencyOfWatering;
+
+    //konstruktory
+    public Plant(String name, String notes, LocalDateTime planted, LocalDateTime watering, Duration frequencyOfWatering) {
+        this.name = name;
+        this.notes = notes;
+        this.planted = planted;
+        this.watering = watering;
+        this.frequencyOfWatering = frequencyOfWatering;
+    }
 }
